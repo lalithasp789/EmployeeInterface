@@ -5,5 +5,5 @@ qdrant_client
 streamlit_feedback
 streamlit_chat
 pymongo
-urllib
+urllib3
 openai == 0.28.0
