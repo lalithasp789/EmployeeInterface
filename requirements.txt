@@ -1,1 +1,9 @@
 streamlit_extras
+langchain == 0.0.330
+sentence_transformers
+qdrant_client
+streamlit_feedback
+streamlit_chat
+pymongo
+urllib.parse
+openai == 0.28.0
