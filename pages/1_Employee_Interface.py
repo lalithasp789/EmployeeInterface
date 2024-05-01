@@ -44,8 +44,8 @@ from langchain.prompts import (
     MessagesPlaceholder
 )
 
-qdrant_url = config['SECRETS']['qdrant_url']
-qdrant_api_key = config['SECRETS']['qdrant_api_key']
+qdrant_url = st.secrets['qdrant_url']
+qdrant_api_key = st.secrets['qdrant_api_key']
 
 client = QdrantClient(
 url=qdrant_url,
